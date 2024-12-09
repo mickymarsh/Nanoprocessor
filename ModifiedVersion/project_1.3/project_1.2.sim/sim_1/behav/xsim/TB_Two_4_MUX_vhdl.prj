@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.2.srcs/sources_1/imports/new/Two_4bit_MUX.vhd" \
+"../../../../project_1.2.srcs/sim_1/imports/nana_pro/2-way-4-bit-multiplexer/2-way-4-bit-multiplexer/4 bit 2 to 1 multiplier.srcs/sim_1/new/TB_Multiplexer.vhd" \
+
+# Do not sort compile order
+nosort

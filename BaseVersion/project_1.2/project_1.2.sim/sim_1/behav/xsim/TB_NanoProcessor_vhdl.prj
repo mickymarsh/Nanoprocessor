@@ -1,0 +1,26 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.2.srcs/sources_1/imports/new/4_bit_Adder_Substrator.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/AU_7_seg.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/D_FF.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Instruction_Dec.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/LUT_8_7.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Mux_8_to_1.vhd" \
+"../../../../project_1.2.srcs/sources_1/new/NanoProcessor.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/ProgramCounter.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/ProgramRom.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/RCA_4.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Reg.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Reg_Bank.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Slow_Clk.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/ThreeBitAdder.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Two_3_bit_MUX.vhd" \
+"../../../../project_1.2.srcs/sources_1/imports/new/Two_4bit_MUX.vhd" \
+"../../../../project_1.2.srcs/sim_1/new/TB_NanoProcessor.vhd" \
+
+# Do not sort compile order
+nosort

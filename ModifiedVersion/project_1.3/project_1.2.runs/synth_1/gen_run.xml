@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1715174130">
+  <File Type="PA-TCL" Name="NanoProcessor.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="NanoProcessor_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="NanoProcessor_reports.tcl"/>
+  <File Type="RDS-RDS" Name="NanoProcessor.vds"/>
+  <File Type="RDS-UTIL" Name="NanoProcessor_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="NanoProcessor_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="NanoProcessor.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="NanoProcessor_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="NanoProcessor_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/4_bit_Adder_Substrator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/4_bit_Adder_Substrator.vhd"/>
+        <Attr Name="ImportTime" Val="1712818673"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/AND_operator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/Boolean_Operator/Boolean_Operator/Boolean_Operator.srcs/sources_1/new/AND_operator.vhd"/>
+        <Attr Name="ImportTime" Val="1714034686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/AU_7_seg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../seven_segment/seven_segment/seven_segment.srcs/sources_1/new/AU_7_seg.vhd"/>
+        <Attr Name="ImportTime" Val="1713883554"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Boolean_operator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/Boolean_Operator/Boolean_Operator/Boolean_Operator.srcs/sources_1/new/Boolean_operator.vhd"/>
+        <Attr Name="ImportTime" Val="1714034686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Comparator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/Comparator_new/Comparator_new/Comparator_new.srcs/sources_1/new/Comparator.vhd"/>
+        <Attr Name="ImportTime" Val="1714042765"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/D_FF.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/D_FF.vhd"/>
+        <Attr Name="ImportTime" Val="1712767443"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Decoder_2_to_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Decoder_2_to_4.vhd"/>
+        <Attr Name="ImportTime" Val="1712644657"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Decoder_3_to_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Decoder_3_to_8.vhd"/>
+        <Attr Name="ImportTime" Val="1712644657"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/FA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/FA.vhd"/>
+        <Attr Name="ImportTime" Val="1712747329"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/FA_6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/lab 5/lab 5.srcs/sources_1/new/FA_6.vhd"/>
+        <Attr Name="ImportTime" Val="1709121630"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/HA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/HA.vhd"/>
+        <Attr Name="ImportTime" Val="1712747329"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Instruction_Dec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Instruction_Dec.vhd"/>
+        <Attr Name="ImportTime" Val="1712818739"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/LUT_8_7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../seven_segment/seven_segment/seven_segment.srcs/sources_1/new/LUT_8_7.vhd"/>
+        <Attr Name="ImportTime" Val="1713883613"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Multiplier_2_2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/lab 5/lab 5.srcs/sources_1/new/Multiplier_2_2.vhd"/>
+        <Attr Name="ImportTime" Val="1709030985"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Multiplier_4_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/lab 5/lab 5.srcs/sources_1/new/Multiplier_4_4.vhd"/>
+        <Attr Name="ImportTime" Val="1709523370"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Mux_4_to_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/4-way-4-bit-multiplexer/4-way-4-bit-multiplexer/4-way-4-bit-multiplexer.srcs/sources_1/new/Mux_4_to_1.vhd"/>
+        <Attr Name="ImportTime" Val="1714042709"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Mux_8_to_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Mux_8_to_1.vhd"/>
+        <Attr Name="ImportTime" Val="1712628530"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/NOR_operator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/Boolean_Operator/Boolean_Operator/Boolean_Operator.srcs/sources_1/new/NOR_operator.vhd"/>
+        <Attr Name="ImportTime" Val="1714034686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/OR_operator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/Boolean_Operator/Boolean_Operator/Boolean_Operator.srcs/sources_1/new/OR_operator.vhd"/>
+        <Attr Name="ImportTime" Val="1714034686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ProgramCounter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/components/components/components.srcs/sources_1/new/ProgramCounter.vhd"/>
+        <Attr Name="ImportTime" Val="1714034660"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ProgramRom.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/ProgramRom.vhd"/>
+        <Attr Name="ImportTime" Val="1712935727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/RCA_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/RCA_4.vhd"/>
+        <Attr Name="ImportTime" Val="1712747329"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Reg.vhd"/>
+        <Attr Name="ImportTime" Val="1712753418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg_Bank.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Reg_Bank.vhd"/>
+        <Attr Name="ImportTime" Val="1712765255"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Slow_Clk.vhd"/>
+        <Attr Name="ImportTime" Val="1712644657"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Top_Multiplier.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/lab 5/lab 5.srcs/sources_1/new/Top_Multiplier.vhd"/>
+        <Attr Name="ImportTime" Val="1714067406"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Two_3_bit_MUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_1.2/project_1.2/project_1.2.srcs/sources_1/imports/new/Two_3_bit_MUX.vhd"/>
+        <Attr Name="ImportTime" Val="1713945078"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Two_4bit_MUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/project_1.1/project_1.1.srcs/sources_1/imports/new/Two_4bit_MUX.vhd"/>
+        <Attr Name="ImportTime" Val="1712802840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/XOR_operator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/Boolean_Operator/Boolean_Operator/Boolean_Operator.srcs/sources_1/new/XOR_operator.vhd"/>
+        <Attr Name="ImportTime" Val="1714034686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fourBitAdder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nana_pro/components/components/components.srcs/sources_1/new/fourBitAdder.vhd"/>
+        <Attr Name="ImportTime" Val="1714034660"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/NanoProcessor.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="NanoProcessor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Basys3Labs.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
